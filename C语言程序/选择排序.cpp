@@ -1,0 +1,25 @@
+#include<stdio.h>
+main()
+{
+	int a[5],i,j,t,k;
+	printf("ÇëÊäÈë5¸öÊı×Ö£º");
+	for(i=0;i<5;i++)
+	scanf("%d",&a[i]);
+	for(i=0;i<4;i++)
+	{
+		k=i;
+		for(j=i+1;j<5;j++)
+		{
+			if(a[k]>a[j])
+			k=j;
+		}
+		if(k!=i)
+		{
+			t=a[i];
+			a[i]=a[k];
+			a[k]=t;
+		}
+	}
+ 		for(i=0;i<5;i++)
+		 printf("%d\n",a[i]);	
+}	
