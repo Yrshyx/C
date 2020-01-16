@@ -18,7 +18,7 @@ int main()
 	scanf("%d",&n);
 	for(i=1;i<=n;i++)
 	{
-		printf("%d",Feibo(i));
+		printf("%d ",Feibo(i));
 	}
 	printf("\n");
  

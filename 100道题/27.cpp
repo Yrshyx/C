@@ -4,7 +4,7 @@
  
 int main() 
 {
-	int i, j, k;
+	char i, j, k;
 	for (i = 'x'; i <= 'z'; i++)
 		for (j = 'x'; j <= 'z'; j++) {
 			if (i != j)

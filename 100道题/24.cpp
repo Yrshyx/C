@@ -3,7 +3,7 @@
 #include<stdio.h>
 int main()
 {
-    float h=100,s=100;
+    float h=100,s=0;
     int i; 
     h=h/2; 
     for(i=2;i<=10;i++)

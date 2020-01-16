@@ -1,7 +1,8 @@
 #include<stdio.h>
+void di(int n);
 int main()
 {
-	void di(int n);
+	
 	int i=5;
 	di(i);
 	printf("\n");
